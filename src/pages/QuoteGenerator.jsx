@@ -66,7 +66,7 @@ const QuoteGenerator = () => {
 
   // Load quotes.json
   useEffect(() => {
-    fetch(process.env.PUBLIC_URL + '/data/quotes.json')
+    fetch(`${process.env.PUBLIC_URL}/data/quotes.json`)
       .then((res) => res.json())
       .then((data) => setQuotesData(data));
   }, []);
