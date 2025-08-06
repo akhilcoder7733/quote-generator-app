@@ -1,6 +1,5 @@
 {
   "name": "modern-random-quote",
-  "homepage": "https://akhilcoder7733.github.io/quote-generator-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
